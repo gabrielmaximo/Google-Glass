@@ -58,9 +58,10 @@ figure.foto-legenda {
   position: relative;
   border: 2px solid #fff;
   box-shadow: 2px 2px 5px black;
-  width: 85%;
-  height: 60%;
-  margin-left: 7.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
 }
 
 figure.foto-legenda img {
@@ -69,7 +70,7 @@ figure.foto-legenda img {
 }
 
 figure.foto-legenda figcaption {
-  font-size: 26;
+  font-size: 22;
   opacity: 0;
   position: absolute;
   top: 0px;
@@ -90,7 +91,7 @@ figure.foto-legenda:hover figcaption {
 nav#menu {
   display: block;
   position: absolute;
-  top: -20px;
+  top: -40px;
   left: 279px;
 }
 
@@ -123,4 +124,67 @@ nav#menu a {
 nav#menu a:hover {
   color: #f5f5f5;
   text-decoration: underline;
+}
+
+section#corpo {
+  display: block;
+  width: 500px;
+  float: left;
+  border-right: 1px solid #606060;
+  padding: 15px;
+}
+
+article#noticia-principal h2 {
+}
+
+table#tabelaspec {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#tabelaspec td {
+  border: 1px solid #606060;
+  padding: 10px;
+}
+
+table#tabelaspec td.ce {
+  color: #ffffff;
+  background-color: #606060;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+  background-color: #cecece;
+}
+
+table#tabelaspec caption {
+  color: #888888;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+table#tabelaspec caption span {
+  display: block;
+  float: right;
+  color: black;
+  font-size: 8pt;
+  margin-top: 7px;
+}
+
+aside#lateral {
+  display: block;
+  width: 350px;
+  float: right;
+}
+
+footer#rodape {
+  clear: both;
+  border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+  text-align: center;
 }
