@@ -11,7 +11,7 @@ body {
 }
 
 div#interface {
-  width: 900px;
+  width: 1100px;
   background-color: #fff;
   margin: -20px auto 0px auto;
   box-shadow: 0px 0px 10px darkgray;
@@ -21,7 +21,7 @@ div#interface {
 header#cabecalho {
   position: relative;
   border-bottom: 1px #606060 solid;
-  height: 150px;
+  height: 135px;
   background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
@@ -44,13 +44,23 @@ header#cabecalho h2 {
 
 header#cabecalho img#icone {
   position: absolute;
-  left: 730px;
-  top: 55px;
+  left: 900px;
+  top: 30px;
 }
 
 p {
   text-align: justify;
   text-indent: 50px;
+}
+
+a {
+  color: #606060;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* formatação de imagens com legendas */
@@ -62,6 +72,8 @@ figure.foto-legenda {
   align-items: center;
   justify-content: center;
   height: 40%;
+  width: 90%;
+  left: -20;
 }
 
 figure.foto-legenda img {
@@ -92,7 +104,7 @@ nav#menu {
   display: block;
   position: absolute;
   top: -40px;
-  left: 279px;
+  left: 460px;
 }
 
 nav#menu ul {
@@ -128,13 +140,43 @@ nav#menu a:hover {
 
 section#corpo {
   display: block;
-  width: 500px;
+  width: 560px;
   float: left;
   border-right: 1px solid #606060;
   padding: 15px;
 }
 
 article#noticia-principal h2 {
+  font-size: 13pt;
+  color: #606060;
+  background-color: #dddddd;
+  padding: 5px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 20pt;
+  color: #606060;
+  margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2 {
+  font-size: 13pt;
+  color: #cecece;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+  font-size: 12px;
+  color: #606060;
+  margin-bottom: 0px;
+  margin: 0px;
+}
+
+header#cabecalho-artigo h3.direita {
+  text-align: right;
 }
 
 table#tabelaspec {
@@ -176,8 +218,26 @@ table#tabelaspec caption span {
 
 aside#lateral {
   display: block;
-  width: 350px;
+  width: 480px;
   float: right;
+  background-color: #dddddd;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+aside#lateral h1 {
+  font-family: "fontelogo", cursive;
+  font-size: 20pt;
+  color: #606060;
+  margin-top: 0px;
+}
+
+aside#lateral h2 {
+  background-color: #606060;
+  font-size: 13pt;
+  color: #ffffff;
+  padding: 5px;
 }
 
 footer#rodape {
