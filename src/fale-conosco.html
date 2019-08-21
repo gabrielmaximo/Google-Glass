@@ -1,47 +1,78 @@
-Google Glass
-A revolução do Google está chegando
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8" />
+    <title>Aprendendo HTML 5</title>
+    <link rel="stylesheet" href="_css/estilo.css" />
+</head>
+<script src="_javascript/funcoes.js"></script>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" alt="oculos preto pequeno" />
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmousemove="mudaFoto('_imagens/home.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">
+                        <a href="index.html">Home</a></li>
+                    <li onmousemove="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">
+                        <a href="specs.html">Especificações</a></li>
+                    <li onmousemove="mudaFoto('_imagens/fotos.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">
+                        <a href="fotos.html">Fotos</a></li>
+                    <li onmousemove="mudaFoto('_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">
+                        <a href="multimidia.html">Multimídia</a></li>
+                    <li onmousemove="mudaFoto('_imagens/contato.png')"
+                        onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">
+                        <a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        Fale Conosco > Contato
+        Formulário de Contato
+        por Gustavo Guanabara
+        Atualizado em 01/Maio/2013
+
+        Identificação do Usuário
+        Nome:
+        Senha:
+        E-mail:
+        Sexo:
         - Masculino
         - Feminino
-    Data de Nascimento:
+        Data de Nascimento:
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+        Endereço do Usuário
+        Logradouro:
+        Número:
+        Estado:
+        Cidade:
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
+        Mensagem do Usuário
+        Grau de Urgência:
+        Mensagem:
 
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+        Quero um Google Glass
+        Gostaria de adquirir um Google Glass quando disponível
+        Cor:
+        Quantidade:
+        Preço Total: R$
 
+        [BOTÃO ENVIAR]
+        <footer id="rodape">
+            <p>Copyright &copy; 2019 - by Gabriel Maximo <br>
+                <a href="https://www.facebook.com/luis.mxm">Facebook </a>
+                | <a href="http://www.xvideos.com">Twitter </a></p>
+        </footer>
+    </div>
+</body>
 
-[BOTÃO ENVIAR]
-
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+</html>
